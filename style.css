@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width"<h1></h1>
+    <title>Document</title>
+    <link rel=""stylesheet" href="style.css">
+    <style>
+       body{
+        font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+        background:linear-gradient(to right,#eef2f3,#dfe9f3);
+        color: #333 ;
+        line-height:1.6;
+       }
+       .nav{
+        background-color: #9cbfef;
+        padding: 15px;
+        dispaly: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: sticky;
+        top:0;
+        z-index: 1000;
+       }
+       .nav a{
+        color:#3c658e;
+        margin: 8px 12px;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+       }
+       .nav a:hover{
+        background-color: #8cb3f1;
+        color:rgb(177, 227, 247);
+       }
+       .nav a.active{
+        background-color: #8daff9;
+       }
+       .container{
+        max-width: 1000px;
+        margin: 30px auto;
+        background: rgb(174, 234, 241);
+        padding: 25px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,1);
+       }
+       .h1{
+        color:#0e233f;
+        margin-bottom: 15px;
+        text-align: center;
+       }
+       .h2{
+        margin-top: 20px;
+        color:374151;
+       }
+       .p{
+        margin-bottom: 15px;
+        font-size: 16px;
+       }
+       .strong{
+        color:#040f26;
+       }
+       .img{
+        display: block;
+        margin: 20px auto;
+        width: 100%
+        border-radius: 8px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+       }
+       .ul{
+        margin-top: 15px;
+        padding-left: 20px;
+
+       }
+       .li{
+        margin-bottom: 8px;
+       }
+       .footer{
+        text-align:center;
+        padding: 15px;
+        margin-top: 20px;
+        background:#02142d;
+        color:rgb(197, 245, 249);
+       }
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="www.html">WWW</a>
+        <a href="TCPIP.html">TCP/IP</a>
+        <a href="browser.html">Browser</a>
+        <a href="server.html">Server</a>
+        <a href="url.html">URL</a>
+        <a href="dns.html">DNS</a>
+        <a href="http.html">HTTP</a>
+        <a href="intranet.html">Intranet</a>
+        <a href="extranet.html">Extranet</a>
+        <a href="multitier.html">Multitier</a>
+        <a href="ftp.html">FTP</a>
+        <a href="html.html">HTML</a>
+        <a href="web1.html">Web1.0</a>
+        <a href="web2.html">Web2.0</a>
+        <a href="web3.html">Web3.0</a>
+        <a href="web4.html">Web4.0</a>
+    </nav>
+    <div class="container">
+        <h1>INTERNET TERMINOLOGY WEBSITE</h1>
+        <P> Please select a term</P>
+    </div>
+</body>
+</html>
+
